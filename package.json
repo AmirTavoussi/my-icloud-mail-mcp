@@ -1,0 +1,27 @@
+{
+  "name": "my-icloud-mail-mcp",
+  "version": "0.1.0",
+  "description": "Minimal, locked-down MCP server for iCloud Mail",
+  "type": "module",
+  "main": "index.js",
+  "bin": {
+    "my-icloud-mail-mcp": "index.js"
+  },
+  "files": [
+    "index.js",
+    "README.md"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.17.2",
+    "imapflow": "^1.0.190",
+    "mailparser": "^3.7.4",
+    "nodemailer": "^7.0.5",
+    "zod": "^3.25.0"
+  }
+}
